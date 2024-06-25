@@ -1,0 +1,143 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Toys & Things<\/strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<em>Online children's toy store.<\/em>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/toys-things",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/childrens-toys.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "featured_collection_wCfM4y": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured Toys",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "crayola-1",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 68,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_yyT3Q7": {
+      "type": "multirow",
+      "blocks": {
+        "row_nAgQQY": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3bebd434f6347a0598d683a2bbe72f3c_dda6fd91-0000-42e4-9dd0-b5fb1a7a9e21.jpg",
+            "caption": "LEGO",
+            "heading": "Pokemon Legos",
+            "text": "<p>Explore a Wide Selection of Exclusive Pokemon Lego Sets on our Online Store.<\/p>",
+            "button_label": "Shop Collection",
+            "button_link": "shopify:\/\/collections\/pokemon"
+          }
+        },
+        "row_HDe6tx": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/61c1bafc9c37cd8a4098d39aa2ec76e2_6c2f94be-7841-4eb4-9811-76c944e2b17c.jpg",
+            "caption": "MONSTER HIGH",
+            "heading": "Monster High Dolls",
+            "text": "<p>Step into a World of Enchantment with our Monster High Dolls!<\/p>",
+            "button_label": "Shop Collection",
+            "button_link": "shopify:\/\/collections\/monster-high"
+          }
+        },
+        "row_dJbkYP": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b0b687ecdd96d34a59069d2b46820f08_8d0d89bd-6102-4ad7-b1bb-7a3e386f8d2a.jpg",
+            "caption": "DIGIMON",
+            "heading": "Digimon Plushies",
+            "text": "<p>Authentic and High-Quality Digimon Plushies for Fans of All Ages.<\/p>",
+            "button_label": "Shop Collection",
+            "button_link": "shopify:\/\/collections\/digimon"
+          }
+        }
+      },
+      "block_order": [
+        "row_nAgQQY",
+        "row_HDe6tx",
+        "row_dJbkYP"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-2",
+        "row_color_scheme": "scheme-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection_wCfM4y",
+    "multirow_yyT3Q7"
+  ]
+}
