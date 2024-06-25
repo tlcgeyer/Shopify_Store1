@@ -161,10 +161,10 @@
             </a>
           </h3>
           <div class="card-information">
-            {% comment %} {%- if show_vendor -%}
+            {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
               <div class="caption-with-letter-spacing light">{{ card_product.vendor }}</div>
-            {%- endif -%} {% endcomment %}
+            {%- endif -%}
 
             <span class="caption-large light">{{ block.settings.description | escape }}</span>
 
@@ -288,8 +288,6 @@
             {%- endif -%}
           </div>
         </div>
-
-        
         {% assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id %}
         {% if quick_add == 'standard' %}
           <div class="quick-add no-js-hidden">
@@ -546,10 +544,6 @@
             </div>
           {% endif %}
         {% endif %}
-
-
-
-        
         <div class="card__badge {{ settings.badge_position }}">
           {%- if card_product.available == false -%}
             <span
@@ -568,22 +562,8 @@
           {%- endif -%}
         </div>
       </div>
-      <div class="buy-container">
-        <div class="buy__now">
-        <form method="post" action="/cart/add">
-          <input type="hidden" name="id" value="{{ product.variants.first.id }}">
-          <button type="submit">Buy Now</button>
-        </form>
-      </div>
-      </div>
-      
-      
-
     </div>
   </div>
-
-
-  
 {%- else -%}
   {%- liquid
     assign ratio = 1
@@ -591,10 +571,6 @@
       assign ratio = 0.8
     endif
   -%}
-
-  
-
-
   <div class="card-wrapper product-card-wrapper underline-links-hover">
     <div
       class="

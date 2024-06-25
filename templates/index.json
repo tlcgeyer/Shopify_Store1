@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Toys & Things Kiddies Store<\/strong>",
+            "heading": "<strong>Toys & Things<\/strong>",
             "heading_size": "h0"
           }
         },
@@ -21,11 +21,11 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify:\/\/collections\/toys-things",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": true
+            "button_style_secondary_2": false
           }
         }
       },
@@ -35,113 +35,101 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/baby-toys-bottles-products.jpg",
+        "image": "shopify:\/\/shop_images\/childrens-toys.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
+        "stack_images_on_mobile": true,
         "show_text_below": false
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "About Toys & Things",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>We are <\/em>a<em> South <\/em>African-<em>based toys store that makes only the best toys with quality materials and ensure long-lasting durability.<\/em><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
       }
     },
     "featured_collection_wCfM4y": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Featured Toys",
         "heading_size": "h1",
         "description": "",
-        "show_description": false,
+        "show_description": true,
         "description_style": "body",
-        "collection": "barbie",
-        "products_to_show": 6,
-        "columns_desktop": 4,
+        "collection": "crayola-1",
+        "products_to_show": 3,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "outline",
         "enable_desktop_slider": true,
-        "color_scheme": "",
-        "image_ratio": "adapt",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,
-        "show_vendor": false,
+        "show_vendor": true,
         "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
+        "quick_add": "standard",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 68,
         "padding_bottom": 36
       }
     },
-    "collage": {
-      "type": "collage",
+    "multirow_yyT3Q7": {
+      "type": "multirow",
       "blocks": {
-        "collection_zWE7Np": {
-          "type": "collection",
+        "row_nAgQQY": {
+          "type": "row",
           "settings": {
-            "collection": "digimon-1"
+            "image": "shopify:\/\/shop_images\/3bebd434f6347a0598d683a2bbe72f3c_dda6fd91-0000-42e4-9dd0-b5fb1a7a9e21.jpg",
+            "caption": "LEGO",
+            "heading": "Pokemon Legos",
+            "text": "<p>Explore a Wide Selection of Exclusive Pokemon Lego Sets on our Online Store.<\/p>",
+            "button_label": "Shop Collection",
+            "button_link": "shopify:\/\/collections\/pokemon"
           }
         },
-        "product_4wfQmQ": {
-          "type": "product",
+        "row_HDe6tx": {
+          "type": "row",
           "settings": {
-            "product": "anime-digimons-digital-monster-tanemon-plush-toys-1",
-            "second_image": false
+            "image": "shopify:\/\/shop_images\/61c1bafc9c37cd8a4098d39aa2ec76e2_6c2f94be-7841-4eb4-9811-76c944e2b17c.jpg",
+            "caption": "MONSTER HIGH",
+            "heading": "Monster High Dolls",
+            "text": "<p>Step into a World of Enchantment with our Monster High Dolls!<\/p>",
+            "button_label": "Shop Collection",
+            "button_link": "shopify:\/\/collections\/monster-high"
           }
         },
-        "product_hcxVbi": {
-          "type": "product",
+        "row_dJbkYP": {
+          "type": "row",
           "settings": {
-            "product": "anime-cartoon-digimon-digital-monsters",
-            "second_image": false
+            "image": "shopify:\/\/shop_images\/b0b687ecdd96d34a59069d2b46820f08_8d0d89bd-6102-4ad7-b1bb-7a3e386f8d2a.jpg",
+            "caption": "DIGIMON",
+            "heading": "Digimon Plushies",
+            "text": "<p>Authentic and High-Quality Digimon Plushies for Fans of All Ages.<\/p>",
+            "button_label": "Shop Collection",
+            "button_link": "shopify:\/\/collections\/digimon"
           }
         }
       },
       "block_order": [
-        "collection_zWE7Np",
-        "product_4wfQmQ",
-        "product_hcxVbi"
+        "row_nAgQQY",
+        "row_HDe6tx",
+        "row_dJbkYP"
       ],
       "settings": {
-        "heading": "Digimon Plushies",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-2",
+        "row_color_scheme": "scheme-2",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -149,8 +137,7 @@
   },
   "order": [
     "image_banner",
-    "rich_text",
     "featured_collection_wCfM4y",
-    "collage"
+    "multirow_yyT3Q7"
   ]
 }
