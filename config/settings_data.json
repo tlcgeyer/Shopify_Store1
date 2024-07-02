@@ -1,7 +1,7 @@
 {
   "current": {
     "logo_width": 90,
-    "type_header_font": "poppins_n4",
+    "type_header_font": "trade_gothic_n4",
     "heading_scale": 105,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
@@ -9,7 +9,7 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
-    "animations_reveal_on_scroll": true,
+    "animations_reveal_on_scroll": false,
     "animations_hover_elements": "3d-lift",
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
@@ -108,10 +108,10 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "currency_code_enabled": true,
+    "currency_code_enabled": false,
     "cart_type": "notification",
     "show_vendor": false,
-    "show_cart_note": false,
+    "show_cart_note": true,
     "cart_drawer_collection": "",
     "sections": {
       "main-password-header": {
@@ -135,7 +135,7 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#121212",
+          "text": "#602794",
           "button": "#121212",
           "button_label": "#ffffff",
           "secondary_button_label": "#121212",
@@ -144,7 +144,7 @@
       },
       "scheme-2": {
         "settings": {
-          "background": "#f3f3f3",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#121212",
           "button": "#121212",
@@ -201,11 +201,22 @@
         "settings": {
           "background": "#f4b006",
           "background_gradient": "linear-gradient(281deg, rgba(244, 176, 6, 1), rgba(127, 72, 176, 1) 50%, rgba(48, 145, 211, 1) 100%)",
-          "text": "#121212",
+          "text": "#ffffff",
           "button": "#121212",
           "button_label": "#ffffff",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
+        }
+      },
+      "scheme-71940eba-9f40-47e6-91ac-484f8f403663": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#602794",
+          "button": "#f20909",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
+          "shadow": "#f20909"
         }
       }
     }
