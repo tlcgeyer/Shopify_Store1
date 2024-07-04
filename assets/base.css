@@ -77,7 +77,6 @@
 /* base */
 
 .page-width {
-  max-width: var(--page-width);
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -1089,7 +1088,7 @@ summary::-webkit-details-marker {
 /* component-media */
 .media {
   display: block;
-  background-color: rgba(var(--color-foreground), 0.1);
+  /* background-color: rgba(var(--color-foreground), 0.1); */
   position: relative;
   overflow: hidden;
 }
@@ -1105,10 +1104,10 @@ summary::-webkit-details-marker {
   height: 100%;
   width: 100%;
   position: relative;
+ 
 }
 
 .media > img {
-  object-fit: cover;
   object-position: center center;
   transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
@@ -3582,3 +3581,4 @@ position: relative;
 .svg_wrapper img {
   object-fit: contain;
 }
+
