@@ -66,6 +66,7 @@
               data-cascade
             {% endif %}
           >
+      
             {%- for block in section.blocks -%}
               <div
                 class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -83,7 +84,7 @@
                   {%- when '@app' -%}
                     {% render block %}
                   {%- when 'text' -%}
-                    <div class="footer-block__details-content rte">
+                    <div class="xitalic footer-block__details-content rte">
                       {{ block.settings.subtext }}
                     </div>
                   {%- when 'link_list' -%}
