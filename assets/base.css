@@ -81,7 +81,9 @@
   padding: 0 1.5rem;
 }
 
-
+body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
+  max-width: 100%;
+}
 
 .page-width.drawer-menu {
   max-width: 100%;
@@ -238,6 +240,8 @@
 
 .text-body {
   font-size: 1.5rem;
+  letter-spacing: 0.06rem;
+  line-height: calc(1 + 0.8 / var(--font-body-scale));
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
@@ -3562,17 +3566,18 @@ details-disclosure > details {
 }
 
 .image_wrapper {
-margin: 0 auto;
+margin: 0 auto; 
+ z-index: -1;
+ bottom: 0;
 position: relative;
 }
 
-.svg_wrapper {
-  position: absolute !important;
-  bottom: 0px;
+.banner__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   z-index: -1;
-  height: auto !important;
 }
-
 .svg_wrapper img {
   object-fit: contain;
 }
